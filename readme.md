@@ -39,11 +39,14 @@ journey
 ```
 
 ```mermaid
-graph TD;
+graph LR;
     A-->B;
     A-->C;
-    B-->D;
+	A-->D & H;
+    B--> D & C;
     C-->D;
+	G-->H;
+	style A fill:#f113 , stroke-width:3px;
 ```
 
 
